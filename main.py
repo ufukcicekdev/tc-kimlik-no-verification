@@ -31,10 +31,10 @@ class VerifyIdentityNumber:
 
 # Example usage
 if __name__ == "__main__":
-    identity_number = '19451167026'
-    first_name = 'Ufuk'
-    last_name = 'Çiçek'
-    birth_year = 1995
+    identity_number = 'tckn'
+    first_name = 'name'
+    last_name = 'surname'
+    birth_year = birthdate
 
     verifier = VerifyIdentityNumber(identity_number, first_name, last_name, birth_year)
     result = verifier.verify()
